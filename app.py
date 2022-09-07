@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route("/")
 def main():
@@ -10,5 +10,5 @@ def main():
 def hello():
   return "how are you !!!!"
 
-if name == "__main__":
+if __name__ == "__main__":
   app.run()
