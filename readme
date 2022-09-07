@@ -10,10 +10,17 @@ $ sudo apt-get install -y python-pip
 $ pip install flask
 now u can run ur web server using flask run command
 source code is in app.py
-4. start web server
+4. start web server in default port - 5000
 $ FLASK_APP=app.py flask run --host=0.0.0.0
-5. access ur web app(app.py)
+ access ur web app(app.py)
   open a browser:  
        <ip adress>:5000    ------o/p====> welcome
        <ip adress>:5000/howareyou    ------o/p======>  how are you !!!!
+5. start web server in a specific port --- 8080
+$ FLASK_APP=app.py flask run --host=0.0.0.0 --port = 8080
+ access ur web app(app.py)
+  open a browser:  
+       <ip adress>:8080    ------o/p====> welcome
+       <ip adress>:8080/howareyou    ------o/p======>  how are you !!!!
+
 
