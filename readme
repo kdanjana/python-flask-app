@@ -1,0 +1,6 @@
+simple webapp using flask
+below are the steps to follow to run the web app on linux
+1.update
+$ sudo apt-get update
+2. install python
+$
