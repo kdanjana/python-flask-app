@@ -1,5 +1,5 @@
-simple webapp using flask
-below are the steps to follow to run the web app on linux
+simple webapp(app.py) using flask
+below are the steps to follow to run the web app(app.py) on linux
 1.update
 $ sudo apt-get update
 2. install python
@@ -11,7 +11,7 @@ now u can run ur web server using flask run command
 source code is in app.py
 4. start web server
 $ FLASK_APP=app.py flask run --host=0.0.0.0
-5. access ur web app
+5. access ur web app(app.py)
   open a browser:  
        <ip adress>:5000    ------o/p====> welcome
        <ip adress>:5000/howareyou    ------o/p======>  how are you !!!!
